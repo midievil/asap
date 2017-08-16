@@ -67,3 +67,14 @@ C:\Projects\asap\asap\asap\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Projects\asap\asap\asap\obj\Debug\asap.csprojResolveAssemblyReference.cache
 C:\Projects\asap\asap\asap\obj\Debug\asap.dll
 C:\Projects\asap\asap\asap\obj\Debug\asap.pdb
+C:\Projects\asap\asap\asap\bin\Data.dll
+C:\Projects\asap\asap\asap\bin\Models.dll
+C:\Projects\asap\asap\asap\bin\MongoDB.Driver.dll
+C:\Projects\asap\asap\asap\bin\MongoDB.Bson.dll
+C:\Projects\asap\asap\asap\bin\MongoDB.Driver.Core.dll
+C:\Projects\asap\asap\asap\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Projects\asap\asap\asap\bin\Data.pdb
+C:\Projects\asap\asap\asap\bin\Models.pdb
+C:\Projects\asap\asap\asap\bin\MongoDB.Driver.xml
+C:\Projects\asap\asap\asap\bin\MongoDB.Bson.xml
+C:\Projects\asap\asap\asap\bin\MongoDB.Driver.Core.xml

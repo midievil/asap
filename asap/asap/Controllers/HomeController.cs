@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Data.Collections;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Models;
 
 namespace asap.Controllers
 {
@@ -10,6 +12,8 @@ namespace asap.Controllers
     {
         public ActionResult Index()
         {
+            OrganizationsCollection c = new OrganizationsCollection();
+            c.Create(new Organization { Name = "Test" });
             return View();
         }
 
