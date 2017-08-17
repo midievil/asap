@@ -14,10 +14,7 @@ C:\Projects\asap\asap\asap\bin\asap.dll.config
 C:\Projects\asap\asap\asap\bin\asap.dll
 C:\Projects\asap\asap\asap\bin\asap.pdb
 C:\Projects\asap\asap\asap\bin\Antlr3.Runtime.dll
-C:\Projects\asap\asap\asap\bin\EntityFramework.dll
-C:\Projects\asap\asap\asap\bin\EntityFramework.SqlServer.dll
 C:\Projects\asap\asap\asap\bin\Microsoft.AspNet.Identity.Core.dll
-C:\Projects\asap\asap\asap\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Projects\asap\asap\asap\bin\Microsoft.AspNet.Identity.Owin.dll
 C:\Projects\asap\asap\asap\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Projects\asap\asap\asap\bin\Microsoft.Owin.dll
@@ -50,11 +47,8 @@ C:\Projects\asap\asap\asap\bin\System.Web.WebPages.Deployment.xml
 C:\Projects\asap\asap\asap\bin\System.Web.WebPages.Razor.xml
 C:\Projects\asap\asap\asap\bin\Antlr3.Runtime.pdb
 C:\Projects\asap\asap\asap\bin\Newtonsoft.Json.xml
-C:\Projects\asap\asap\asap\bin\EntityFramework.xml
-C:\Projects\asap\asap\asap\bin\EntityFramework.SqlServer.xml
 C:\Projects\asap\asap\asap\bin\Microsoft.AspNet.Identity.Core.xml
 C:\Projects\asap\asap\asap\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\Projects\asap\asap\asap\bin\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Projects\asap\asap\asap\bin\Microsoft.Owin.xml
 C:\Projects\asap\asap\asap\bin\Microsoft.Owin.Host.SystemWeb.xml
 C:\Projects\asap\asap\asap\bin\Microsoft.Owin.Security.xml
@@ -78,3 +72,5 @@ C:\Projects\asap\asap\asap\bin\Models.pdb
 C:\Projects\asap\asap\asap\bin\MongoDB.Driver.xml
 C:\Projects\asap\asap\asap\bin\MongoDB.Bson.xml
 C:\Projects\asap\asap\asap\bin\MongoDB.Driver.Core.xml
+C:\Projects\asap\asap\asap\bin\AspNet.Identity.MongoDB.dll
+C:\Projects\asap\asap\asap\bin\AspNet.Identity.MongoDB.pdb

@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using asap.Models;
+using AspNet.Identity.MongoDB;
 
 namespace asap.Controllers
 {
@@ -20,6 +21,10 @@ namespace asap.Controllers
 
         public AccountController()
         {
+            this.UserManager = new UserManager<ApplicationUser>(
+                    new UserStore<ApplicationUser>("MongoDB")
+                ) as ApplicationUserManager;
+
         }
 
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
@@ -151,7 +156,7 @@ namespace asap.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                var user = new ApplicationUser { UserName = model.Email, EmailAddress = model.Email };
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
@@ -367,7 +372,7 @@ namespace asap.Controllers
                 {
                     return View("ExternalLoginFailure");
                 }
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                var user = new ApplicationUser { UserName = model.Email, EmailAddress = model.Email };
                 var result = await UserManager.CreateAsync(user);
                 if (result.Succeeded)
                 {
