@@ -17,13 +17,13 @@ namespace asap.Controllers
     public class AccountController : Controller
     {
         private ApplicationSignInManager _signInManager;
-        private ApplicationUserManager _userManager;
+        private UserManager<ApplicationUser> _userManager;
 
         public AccountController()
         {
             this.UserManager = new UserManager<ApplicationUser>(
                     new UserStore<ApplicationUser>("MongoDB")
-                ) as ApplicationUserManager;
+                );
 
         }
 
@@ -45,7 +45,7 @@ namespace asap.Controllers
             }
         }
 
-        public ApplicationUserManager UserManager
+        public UserManager<ApplicationUser> UserManager
         {
             get
             {
